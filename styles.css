@@ -1,0 +1,188 @@
+body {
+  color: #545454;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  line-height: 1.9rem;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1 {
+  margin: 50px auto 0;
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 5.625rem;
+  color: #4ab19a;
+}
+
+h2 {
+  font-family: "Montserrat";
+  color: #1e836c;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: "Montserrat";
+  color: #45B29A;
+}
+
+hr {
+  width: 3%;
+  border: dotted #f3f2f2 6px;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+p {
+  color: #545454;
+  margin: 0 0 10px 0;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+a {
+  border-bottom: 1px solid #45b29a;
+  color: #45b29a;
+  text-decoration: none;
+}
+
+.job-title {
+  font-family: "Montserrat";
+  color: #45b29a;
+  font-size: 1.2rem;
+  font-weight: 700;
+  position: relative;
+  margin-top: 2%;
+}
+
+.intro {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+}
+
+.top-container {
+  background-color: #e0ebe8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 130px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.land {
+  position: relative;
+  padding-top: 50px;
+}
+
+.middle-container {
+  padding-top: 150px;
+  margin: 0 0 100px 0;
+}
+
+.skill-row1 {
+  width: 35%;
+  margin: 150px auto;
+  text-align: left;
+}
+
+.graphic-icon {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row2 {
+  width: 35%;
+  margin: 150px auto;
+  text-align: left;
+}
+
+.paint-icon {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5em;
+  background-color: #C5DED7;
+  padding: 3rem 0;
+}
+
+
+/*button  button  button  button  button  button */
+.myButton {
+	box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "Montserrat";
+	font-size:20px;
+	font-weight:200;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+  margin: 50px auto;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*button  button  button  button  button  button */
+
+.fa-paper-plane:before {
+    content: "\f1d8";
+    position: relative;
+    right: 10%;
+  }
+
+.footer-link {
+  color: #45b29a;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  margin: auto 20px;
+  text-decoration: none;
+  font-weight: 700;
+  }
+
+.footer-link:hover {
+  color: #1e836c;
+  font-weight: 900;
+}
+
+.copyright {
+  font-family: "Montserrat";
+  font-size: 0.8rem;
+  margin-top: 50px;
+  font-weight: 500;
+}
+
+.message-text {
+  width: 30%;
+  margin: 40px auto;
+}
