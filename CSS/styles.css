@@ -12,19 +12,23 @@ body {
   left: 0;
   padding: 20px;
 }
-.nav-list {
-  text-decoration: none;
-  float: right;
-}
+
+
+
 li {
   list-style: none;
   display: block;
   float: left;
   color: #4ab19a;
 }
+
 li a {
   color: #45b29a;
+  transition: all .3s ease-in-out;
+  margin: 0 0 0 2rem;
 }
+
+
 img {
   vertical-align: middle;
 }
@@ -63,8 +67,22 @@ p {
   font-size: 1rem;
 }
 
+.nav-list {
+  text-decoration: none;
+  float: right;
+  margin: 0 0 0 2rem;
+}
+
+.nav-list :hover {
+  text-decoration: none;
+  color: #21564b;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 .footer a {
-  border-bottom: 1px solid #45b29a;
   color: #45b29a;
   text-decoration: none;
 }
@@ -136,21 +154,13 @@ p {
   margin-left: 30px;
 }
 
-.footer {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  font-size: 1.5em;
-  background-color: #C5DED7;
-  padding: 3rem 0;
-}
 
 
 /*button  button  button  button  button  button */
 .myButton {
 	box-shadow: 0 10px 14px -7px #276873;
-	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
-	background-color:#599bb3;
+	background:linear-gradient(to bottom, #45b29a 5%, #1b7f69 100%);
+	background-color:#1b7f69;
 	border-radius:8px;
 	display:inline-block;
 	cursor:pointer;
@@ -164,21 +174,40 @@ p {
   margin: 50px auto;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-	background-color:#408c99;
+	background:linear-gradient(to bottom, #1b7f69 5%, #45b29a 100%);
+  background-color:#45b29a;
+  text-decoration: none;
+  color: #fff;
 }
 .myButton:active {
 	position:relative;
-	top:1px;
+  top:1px;
+}
+
+.fa-paper-plane:before {
+  content: "\f1d8";
+  position: relative;
+  right: 1rem;
+}
+
+.message-text {
+  width: 30%;
+  margin: 40px auto;
 }
 
 /*button  button  button  button  button  button */
 
-.fa-paper-plane:before {
-    content: "\f1d8";
-    position: relative;
-    right: 10%;
-  }
+/*footer footer footer footer footer footer footer */
+
+
+.footer {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5em;
+  background-color: #C5DED7;
+  padding: 3rem 0;
+}
 
 .footer-link {
   color: #45b29a;
@@ -191,6 +220,8 @@ p {
 .footer-link:hover {
   color: #1e836c;
   font-weight: 900;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
 }
 
 .copyright {
@@ -198,9 +229,12 @@ p {
   font-size: 0.8rem;
   margin-top: 50px;
   font-weight: 500;
+  color: #45b29a;
 }
 
-.message-text {
-  width: 30%;
-  margin: 40px auto;
+.copyright :hover {
+  text-decoration: none;
+  color: #21564b
 }
+
+/*footer footer footer footer footer footer footer */
